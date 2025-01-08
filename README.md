@@ -1,10 +1,10 @@
-Matplotlib Challenge: Pymaceuticals Inc.
+#Matplotlib Challenge: Pymaceuticals Inc.
 
-Overview
+##Overview
 
 This project focuses on analyzing a pharmaceutical study involving several drug regimens tested on mice to observe their effects on tumor volume. Using Python and Matplotlib, we cleaned, visualized, and interpreted the data to uncover insights into drug effectiveness and other key metrics.
 
-Dataset Description
+##Dataset Description
 
 Two datasets were provided:
 
@@ -14,7 +14,7 @@ Study_results.csv: Includes measurements from the study, such as tumor volume, m
 
 These datasets were merged using the Mouse ID column to form a comprehensive dataset for analysis.
 
-Analysis Workflow
+##Analysis Workflow
 
 1. Data Cleaning
 
@@ -48,7 +48,7 @@ Performed a scatter plot and linear regression to analyze the relationship betwe
 
 Identified a positive correlation, indicating that larger mice tend to have larger tumor volumes.
 
-Key Findings
+##Key Findings
 
 Capomulin and Ramicane were the most effective treatments, as evidenced by lower tumor volumes and consistent results.
 
@@ -56,7 +56,7 @@ Infubinol showed more variability and included an outlier that warrants further 
 
 The relationship between mouse weight and tumor volume suggests potential factors influencing drug efficacy.
 
-Tools Used
+##Tools Used
 
 Python Libraries: Matplotlib, Pandas, NumPy, SciPy
 
@@ -86,6 +86,6 @@ pymaceuticals_analysis.ipynb: Jupyter Notebook containing the analysis.
 
 README.md: This file.
 
-Conclusion
+##Conclusion
 
 The Matplotlib Challenge highlights the importance of data visualization and statistical analysis in understanding the effects of pharmaceutical treatments. By cleaning and analyzing the data, we identified the most promising drugs and gained insights into factors influencing their effectiveness.
